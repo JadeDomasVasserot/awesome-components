@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { ComplexFormRoutingModule } from './complex-form-routing.module';
-import { ComplexFormComponent } from './components/complex-form/complex-form.component';
+import {ComplexFormRoutingModule} from './complex-form-routing.module';
+import {ComplexFormComponent} from './components/complex-form/complex-form.component';
 import {SharedModule} from "../shared/shared.module";
 import {ReactiveFormsModule} from "@angular/forms";
 import {ComplexFormService} from "./components/complex-form/services/complex-form.service";
@@ -16,10 +16,11 @@ import {ComplexFormService} from "./components/complex-form/services/complex-for
     CommonModule,
     ComplexFormRoutingModule,
     SharedModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [
     ComplexFormService
   ]
 })
-export class ComplexFormModule { }
+export class ComplexFormModule {
+}

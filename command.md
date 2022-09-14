@@ -15,3 +15,5 @@ ng g c social-media/components/post-list
 ng g c social-media/components/post-list-item
 
 ng g c shared/components/comments --export
+
+ng g m reactive-state --routing
